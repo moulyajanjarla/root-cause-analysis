@@ -1,7 +1,8 @@
+# Example: Sample schema for request and response
 from pydantic import BaseModel
 
 class LogRequest(BaseModel):
-    log: str
+    data: str
 
 class LogResponse(BaseModel):
-    processed_log: str
+    processed_data: str
